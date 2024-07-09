@@ -1,0 +1,123 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BossValidatorFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Euler",
+        "printedName": "Euler",
+        "declKind": "Import",
+        "moduleName": "BossValidatorFramework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BossValidation",
+        "printedName": "BossValidation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateShef",
+            "printedName": "validateShef(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22BossValidatorFramework0A10ValidationV12validateShefyS2SFZ",
+            "mangledName": "$s22BossValidatorFramework0A10ValidationV12validateShefyS2SFZ",
+            "moduleName": "BossValidatorFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pinValidator",
+            "printedName": "pinValidator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22BossValidatorFramework0A10ValidationV03pinB0yS2iFZ",
+            "mangledName": "$s22BossValidatorFramework0A10ValidationV03pinB0yS2iFZ",
+            "moduleName": "BossValidatorFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22BossValidatorFramework0A10ValidationV",
+        "mangledName": "$s22BossValidatorFramework0A10ValidationV",
+        "moduleName": "BossValidatorFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kostadinagecevska\/Desktop\/BossValidatorFramework\/BossValidatorFramework\/BossValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 20,
+      "value": "\"Dushan Stojanovski\""
+    },
+    {
+      "filePath": "\/Users\/kostadinagecevska\/Desktop\/BossValidatorFramework\/BossValidatorFramework\/BossValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 20,
+      "value": "\"Invalid BOSS name!\""
+    },
+    {
+      "filePath": "\/Users\/kostadinagecevska\/Desktop\/BossValidatorFramework\/BossValidatorFramework\/BossValidation.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 17,
+      "value": "\"BOSS VALIDATED!\""
+    }
+  ]
+}

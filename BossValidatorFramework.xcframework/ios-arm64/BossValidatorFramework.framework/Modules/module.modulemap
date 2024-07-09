@@ -1,0 +1,11 @@
+framework module BossValidatorFramework {
+  umbrella header "BossValidatorFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module BossValidatorFramework.Swift {
+  header "BossValidatorFramework-Swift.h"
+  requires objc
+}
